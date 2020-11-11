@@ -1,4 +1,4 @@
-# udemy-vue
+# OnlineStore
 
 ## Project setup
 ```
