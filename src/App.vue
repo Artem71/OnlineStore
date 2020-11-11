@@ -1,20 +1,10 @@
 <template>
-  <div id="app">
-    <h1>{{ msg }}</h1>
-  </div>
+  <h1>Hello world</h1>
 </template>
 
 <script>
+
 export default {
-  name: 'App',
-  data: () => ({
-    msg: 'Welcome to Vue.js App'
-  }),
-  components: {
-  }
+  name: 'App'
 }
 </script>
-
-<style>
-
-</style>
