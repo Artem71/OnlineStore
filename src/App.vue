@@ -1,10 +1,15 @@
 <template>
-  <h1>Hello world</h1>
+  <v-app>
+   <navbar />
+  </v-app>
 </template>
 
 <script>
-
+import Navbar from './components/Navbar'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Navbar
+  }
 }
 </script>
