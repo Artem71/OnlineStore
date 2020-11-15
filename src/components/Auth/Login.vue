@@ -8,9 +8,9 @@
           </v-toolbar>
           <v-card-text>
             <v-form
-            ref="form"
-            v-model="valid"
-            lazy-validation
+              ref="form"
+              v-model="valid"
+              lazy-validation
             >
               <v-text-field
               prepend-icon="mdi-account"
@@ -21,7 +21,7 @@
               v-model="email"
               ></v-text-field>
               <v-text-field
-              id="password"
+              type="password"
               prepend-icon="mdi-lock"
               name="password"
               :counter="6"
