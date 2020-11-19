@@ -41,6 +41,11 @@ export default {
   getters: {
     products: state => state.products,
     promoProducts: s => s.products.filter(p => p.promo),
-    myProducts: state => state.products
+    myProducts: state => state.products,
+    productById(state) {
+      return productId => {
+        return state.products.find(product => product.id === productId)
+      }
+    }
   }
 }
